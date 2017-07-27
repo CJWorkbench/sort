@@ -28,4 +28,5 @@ class Importable:
                 newtab = table.sort_values(sortby)
             else:
                 newtab = table.sort_values(sortby, ascending = False)
+            wf_module.set_ready(notify=False)
             return newtab
