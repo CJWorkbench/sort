@@ -1,16 +1,16 @@
 {
-  "name": "Sort by numeric column",
+  "name": "Sort By Numeric Value",
   "id_name": "sortbynumericcolumn",
-  "description": "Sort by numeric column. If column type is not numeric, it tries to convert it to numeric",
-  "category" : "Campaign Finance",
+  "description": "Sort columns by numeric values. If the column's values are not numeric, the module tries to convert strings into numbers.",
+  "category" : "Transform",
   "parameters": [
     {
-      "name": "Sort by",
+      "name": "Sort column",
       "id_name" : "sortby",
       "type": "string"
     },
     {
-      "name": "Sort order",
+      "name": "Method",
       "id_name" : "order",
       "type" : "menu",
       "menu_items" : "Ascending|Descending",
