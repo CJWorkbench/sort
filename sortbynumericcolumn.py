@@ -11,7 +11,7 @@ class Importable:
 
     @staticmethod
     def render(wf_module, table):
-        sortby = wf_module.get_param_string('sortby')
+        sortby = wf_module.get_param_column('sortby')
         order = wf_module.get_param_menu_string('order')
 
         if sortby == '':

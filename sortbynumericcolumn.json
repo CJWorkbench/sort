@@ -8,7 +8,7 @@
     {
       "name": "Sort column",
       "id_name" : "sortby",
-      "type": "string"
+      "type": "column"
     },
     {
       "name": "Method",
