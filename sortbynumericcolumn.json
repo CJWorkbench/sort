@@ -2,7 +2,7 @@
   "name": "Sort Numerically",
   "id_name": "sortbynumericcolumn",
   "description": "Sort columns by numeric values. If the column's values are not numeric, the module tries to convert strings into numbers.",
-  "category" : "Transform",
+  "category" : "Analyse",
   "icon": "transform",
   "parameters": [
     {
