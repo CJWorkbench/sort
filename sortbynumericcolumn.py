@@ -16,10 +16,10 @@ class Importable:
 
         if sortby == '':
             wf_module.set_ready(notify=False)
-            return None
+            return table
         elif sortby not in table.columns:
             wf_module.set_error('Invalid column.')
-            return None
+            return table
         else:
             if table[sortby].dtype != np.float64 and table[sortby].dtype != np.int64:
                 table[sortby] = table[sortby].str.replace(',', '')
