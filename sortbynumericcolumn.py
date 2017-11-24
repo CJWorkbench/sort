@@ -2,7 +2,7 @@ def render(table, params):
     sortby = params['sortby']
     order = params['order']
 
-    if sortby is None:
+    if sortby == '':
         return table
     else:
         if table[sortby].dtype != np.float64 and table[sortby].dtype != np.int64:
