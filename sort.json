@@ -1,7 +1,7 @@
 {
-  "name": "Sort numerically",
+  "name": "Sort",
   "id_name": "sortbynumericcolumn",
-  "description": "Sort columns by numeric values. If the column's values are not numeric, the module tries to convert strings into numbers.",
+  "description": "Sort a column in numeric or alphabetic order",
   "category" : "Analyse",
   "icon": "transform-v",
   "parameters": [
@@ -11,7 +11,14 @@
       "type": "column"
     },
     {
-      "name": "Method",
+      "name": "Type",
+      "id_name" : "num-or-alpha",
+      "type" : "menu",
+      "menu_items" : "Numeric|Alphabetical",
+      "default": "0"
+    },
+    {
+      "name": "Order",
       "id_name" : "order",
       "type" : "menu",
       "menu_items" : "Ascending|Descending",
