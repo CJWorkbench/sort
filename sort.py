@@ -15,4 +15,5 @@ def render(table, params):
         table[col] = table[col].astype(str)
 
     asc = order == 0
-    return table.sort_values(col, inplace=True, ascending = asc)
+    table.sort_values(col, inplace=True, ascending = asc)
+    return table
