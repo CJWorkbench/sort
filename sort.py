@@ -10,7 +10,10 @@ def render(table, params):
         # if we don't have a numeric type, try deleting commas and coercing
         if table[col].dtype != np.float64 and table[col].dtype != np.int64:
             table[col] = table[col].str.replace(',', '')
-            table[col] = table[col].astype(float)
+            try:
+                table[col] = table[col].astype(float)
+            except ValueError as e:
+                raise ValueError('Cannot convert text to number')
     else:
         table[col] = table[col].astype(str)
 
