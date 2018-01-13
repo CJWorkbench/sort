@@ -3,7 +3,7 @@ def render(table, params):
     order = params['order']
     sorttype = params['num-or-alpha']
 
-    if col=''
+    if col='':
         return table
     
     if sorttype == 0: # numeric
