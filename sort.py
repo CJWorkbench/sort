@@ -13,7 +13,7 @@ def render(table, params):
             try:
                 table[col] = table[col].astype(float)
             except ValueError as e:
-                raise ValueError('Cannot convert text to number')
+                return 'Cannot convert text to number'
     else:
         table[col] = table[col].astype(str)
 
