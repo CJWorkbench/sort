@@ -1,15 +1,15 @@
 def render(table, params):
-    sortby = params['sortby']
+    col = params['sortby']
     order = params['order']
+    sorttype = params['num-or-alpha']
 
-    if sortby == '':
-        return table
+    if sorttype == 0: # numeric
+        # if we don't have a numeric type, try deleting commas and coercing
+        if table[col].dtype != np.float64 and table[col].dtype != np.int64:
+            table[col] = table[col].str.replace(',', '')
+            table[col] = table[col].astype(float)
     else:
-        if table[sortby].dtype != np.float64 and table[sortby].dtype != np.int64:
-            table[sortby] = table[sortby].str.replace(',', '')
-            table[sortby] = table[sortby].astype(float)
-        if order == 0:  # ascending
-            newtab = table.sort_values(sortby)
-        else:
-            newtab = table.sort_values(sortby, ascending = False)
-        return newtab
+        table[col] = table[col].astype(str)
+
+    asc = order == 0
+    return table.sort_values(col, inplace=True, ascending = asc)
