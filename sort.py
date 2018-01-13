@@ -3,6 +3,9 @@ def render(table, params):
     order = params['order']
     sorttype = params['num-or-alpha']
 
+    if col=''
+        return table
+    
     if sorttype == 0: # numeric
         # if we don't have a numeric type, try deleting commas and coercing
         if table[col].dtype != np.float64 and table[col].dtype != np.int64:
