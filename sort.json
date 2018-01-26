@@ -6,7 +6,7 @@
   "icon": "transform-v",
   "parameters": [
     {
-      "name": "Sort by",
+      "name": "Column",
       "id_name" : "sortby",
       "type": "column"
     },
