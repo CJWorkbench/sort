@@ -18,7 +18,7 @@
       "default": "0"
     },
     {
-      "name": "Order",
+      "name": "Sort",
       "id_name" : "order",
       "type" : "menu",
       "menu_items" : "Ascending|Descending",
