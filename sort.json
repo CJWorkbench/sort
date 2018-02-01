@@ -4,6 +4,7 @@
   "description": "Sort a column in numeric or alphabetic order",
   "category" : "Analyse",
   "icon": "transform-v",
+  "help_url":"modules/analyse/sort",
   "parameters": [
     {
       "name": "Column",
