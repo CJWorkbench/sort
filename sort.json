@@ -4,7 +4,7 @@
   "description": "Sort a column in numeric or alphabetic order",
   "category" : "Prepare",
   "icon": "transform-v",
-  "help_url":"modules/analyse/sort",
+  "help_url":"modules/prepare/sort",
   "parameters": [
     {
       "name": "Column",
