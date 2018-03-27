@@ -2,9 +2,9 @@
   "name": "Sort",
   "id_name": "sortbynumericcolumn",
   "description": "Sort a column in numeric or alphabetic order",
-  "category" : "Prepare",
+  "category" : "Analyse",
   "icon": "transform-v",
-  "help_url":"modules/prepare/sort",
+  "help_url":"modules/analyse/sort",
   "parameters": [
     {
       "name": "Column",
