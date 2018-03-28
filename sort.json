@@ -23,7 +23,7 @@
       "id_name" : "order",
       "type" : "menu",
       "menu_items" : "Ascending|Descending",
-      "default": "0"
+      "default": "Ascending"
     }
   ]
 }
