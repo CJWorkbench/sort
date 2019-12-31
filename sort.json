@@ -1,7 +1,7 @@
 {
   "name": "Sort",
   "id_name": "sortbynumericcolumn",
-  "description": "Sort a column in numeric or alphabetic order",
+  "description": "Sort a column in numeric or alphabetic order.",
   "category" : "Analyze",
   "icon": "transform-v",
   "help_url":"modules/analyse/sort",
