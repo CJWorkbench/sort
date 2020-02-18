@@ -1,0 +1,26 @@
+#. default-message: Sort
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Sort rows by selected columns' values.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: Keep top
+msgid "_spec.parameters.keep_top.name"
+msgstr ""
+
+#. default-message: Number of rows
+msgid "_spec.parameters.keep_top.placeholder"
+msgstr ""
+
+#. default-message: Please enter a positive integer in "Keep top" or leave it blank.
+#: sort.py:27
+msgid "badParam.keep_top.negative"
+msgstr ""
+
+#. default-message: Duplicate columns.
+#: sort.py:43
+msgid "badParam.sort_columns.duplicate"
+msgstr ""
+

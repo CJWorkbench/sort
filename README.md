@@ -1,2 +1,0 @@
-# sort
-Numerically or alphabetically.
