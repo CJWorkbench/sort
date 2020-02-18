@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-02-18 11:35+0000\n"
+"POT-Creation-Date: 2020-02-18 16:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -20,16 +20,16 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 msgid "_spec.name"
-msgstr ""
+msgstr "Ταξινόμηση"
 
 msgid "_spec.description"
-msgstr ""
+msgstr "Ταξινόμηση σειρών κατά στήλη"
 
 msgid "_spec.parameters.keep_top.name"
-msgstr ""
+msgstr "Διατήρηση κορυφαίων σειρών"
 
 msgid "_spec.parameters.keep_top.placeholder"
-msgstr ""
+msgstr "Πληκτρολογήστε πόσες σειρές θέλετε να διατηρήσετε"
 
 #: sort.py:27
 msgid "badParam.keep_top.negative"
