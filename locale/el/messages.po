@@ -33,9 +33,9 @@ msgstr "Πληκτρολογήστε πόσες σειρές θέλετε να �
 
 #: sort.py:27
 msgid "badParam.keep_top.negative"
-msgstr ""
+msgstr "Πληκτρολογήστε έναν θετικό ακέραιο αριθμό στο \"Διατήρηση κορυφαίων σειρών\" ή αφήστε το κενό."
 
 #: sort.py:43
 msgid "badParam.sort_columns.duplicate"
-msgstr ""
+msgstr "Διπλότυπες στήλες."
 
